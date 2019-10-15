@@ -1,1 +1,1 @@
--- Домашнее задание сдам на протяжении дня 05.10.2019
+https://docs.google.com/document/d/17VzA0gpSV37JN6Y5GwgLiWipfIoGN0LBaB41ebpQbZg/edit?usp=sharing
