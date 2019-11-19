@@ -23,8 +23,14 @@ def func1(n):
                 sieve[j] = 0
     return filter(lambda x: x != 0, sieve)
 
-def func2(limit):
-
-
-
-print(func2(40))
+def func2(n):
+    array = list(range(n + 1))
+    result = []
+    for i in array:
+        j = 2
+        while i > j:
+            if i != j and i % j != 0:
+                result.append(i)
+            j += 1
+    return list(set(result))
+print(func2(20))
