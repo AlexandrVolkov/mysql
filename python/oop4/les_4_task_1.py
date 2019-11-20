@@ -67,20 +67,7 @@ def test_func2(num):
 # 100 loops, best of 5: 16.5 msec per loop
 
 
-def test_func3(num):
-    array = [random.randint(0, 100 * num) for _ in range(num)]
-    for i in range(100):
-        i = 0
-        j = 0
-        while i < len(array):
-            while j < len(array):
-                max
-            if array[i] > array[i_max]:
-                i_max = i
-            if array[i] < array[i_min]:
-                i_min = i
-            i += 1
-        spam = array[i_min]
-        array[i_min] = array[i_max]
-        array[i_max] = spam
-    return result
+# третий вариант сложно придумать
+
+
+# второй вариант вышел быстрее за счёт использования стандартных функций python по работе с массивами
